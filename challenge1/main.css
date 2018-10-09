@@ -1,3 +1,10 @@
 img {
 	margin: 50px;
 }
+
+img:hover {
+    transform: scale(2.2);
+    transition-timing-function: ease-in;
+    transition-duration: 1;
+    margin: 120px 100px;
+}
