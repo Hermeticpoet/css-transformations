@@ -2,4 +2,17 @@
 	background-color: #0997d3;
 	width: 200px;
 	height: 200px;
+	position: relative;
+}
+
+.element:hover {
+	animation-name: move;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes move {
+	from {margin-top: 0px;}
+	to {margin-top: 200px}
 }
